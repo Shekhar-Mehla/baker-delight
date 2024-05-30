@@ -4,7 +4,7 @@ export const Bottomnav = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
+        <div className="container-fluid bg-danger">
           <button
             className="navbar-toggler"
             type="button"
@@ -20,8 +20,11 @@ export const Bottomnav = () => {
             className="collapse navbar-collapse "
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+            <ul
+              className="navbar-nav ms-auto mb-2 mb-lg-0"
+              data-bs-theme="light"
+            >
+              <li className="nav-item me-4">
                 <a className="nav-link active" aria-current="page" href="#">
                   Shop Online
                 </a>
@@ -52,14 +55,14 @@ export const Bottomnav = () => {
                 </a>
               </li>
             </ul>
-            <form className="d-flex" role="search">
+            <form className="d-flex ms-3" role="search">
               <input
                 className="form-control me-2"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button className="btn btn-outline-success" type="submit">
+              <button className="btn btn-danger" type="submit">
                 Search
               </button>
             </form>

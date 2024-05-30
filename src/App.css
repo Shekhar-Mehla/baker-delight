@@ -1,3 +1,20 @@
 .middlenav {
   margin-right: 0;
 }
+.heroimg {
+  height: 550px;
+  width: 100vw;
+  background-image: url(./assets/hero.jpg);
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: cover;
+
+  object-position: center;
+}
+.navbar {
+  --bs-navbar-padding-y: 0;
+}
+.learnMore {
+  bottom: 1rem;
+}

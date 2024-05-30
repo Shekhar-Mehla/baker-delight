@@ -2,6 +2,7 @@ import "./App.css";
 import { TOPNAV } from "./components/TOPNAV ";
 import { Middlenav } from "./components/Middlenav";
 import { Bottomnav } from "./components/Bottomnav";
+import { Hero } from "./components/Hero";
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
       <TOPNAV></TOPNAV>
       <Middlenav></Middlenav>
       <Bottomnav></Bottomnav>
+      <Hero></Hero>
     </>
   );
 }
