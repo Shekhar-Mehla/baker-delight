@@ -5,8 +5,8 @@ import cob from "../assets/cob.png";
 export const Topproducts = () => {
   return (
     <div>
-      <div className="topproducts_wrapper">
-        <h2 className="text-center">TOP PICS</h2>
+      <div className="topproducts_wrapper m-4">
+        <h2 className="text-center text-danger fw-4 m-5">TOP PICS</h2>
         <div
           id="carouselExampleInterval"
           className="carousel slide"
@@ -230,7 +230,7 @@ export const Topproducts = () => {
             data-bs-target="#carouselExampleInterval"
             data-bs-slide="prev"
           >
-            <span className="carousel-control-prev-icon" aria-hidden="true" />
+            <span className="carousel-control-prev-icon " aria-hidden="true" />
             <span className="visually-hidden">Previous</span>
           </button>
           <button
@@ -239,7 +239,7 @@ export const Topproducts = () => {
             data-bs-target="#carouselExampleInterval"
             data-bs-slide="next"
           >
-            <span className="carousel-control-next-icon" aria-hidden="true" />
+            <span className="carousel-control-next-icon " aria-hidden="true" />
             <span className="visually-hidden">Next</span>
           </button>
         </div>
