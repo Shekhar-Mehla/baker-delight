@@ -3,8 +3,8 @@ import React from "react";
 export const Bottomnav = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid bg-danger">
+      <nav className="navbar  navbar-expand-lg bg-body-tertiary">
+        <div className="container-fluid pt-3 pb-3 bg-danger">
           <button
             className="navbar-toggler"
             type="button"

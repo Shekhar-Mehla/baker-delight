@@ -2,9 +2,9 @@ import React from "react";
 
 export const TOPNAV = () => {
   return (
-    <div className="wrapper ">
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid bg-danger ">
+    <div className="  ">
+      <nav className="navbar  navbar-expand-lg bg-body-tertiary">
+        <div className="container-fluid bg-danger pt-2 pb-2 ">
           <div className="  ms-auto " id="navbarNav">
             <ul className="navbar-nav ">
               <li className="nav-item ">

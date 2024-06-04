@@ -93,7 +93,8 @@ hr {
   border-radius: 2px;
 }
 .carousel-control-next-icon,
-.carousel-control-prev {
-  height: 6rem;
-  width: 6rem;
+.carousel-control-prev-icon {
+  height: 2rem;
+  width: 2rem;
+  background-color: rgba(255, 21, 0, 0.216);
 }

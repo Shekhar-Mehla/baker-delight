@@ -6,6 +6,7 @@ import { Hero } from "./components/Hero";
 import { Topproducts } from "./components/Topproducts";
 
 import { Moreproduct } from "./components/Moreproduct";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Hero></Hero>
       <Topproducts></Topproducts>
       <Moreproduct></Moreproduct>
+      <Footer></Footer>
 
       {/* <div class="container  text-center">
         <div class="row g-0 row-cols-3">
